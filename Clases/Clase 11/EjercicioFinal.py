@@ -278,7 +278,7 @@ while menu_ppal:
                             print("-"*40)
                             print(f"Subtotal:\t\t\t${subtotal}")
                             if descuento != 0:
-                                print(f"Descuento:\n{descuento}% {nom_desc} \t\t{math.trunc(subtotal*(descuento/100))}")
+                                print(f"Descuento:\n{descuento}% {nom_desc} \t\t${math.trunc(subtotal*(descuento/100))}")
                             print("-"*40)
                             print(f"Total: \t\t\t\t${math.trunc(totalfinal)}")
                             print("-"*40)
