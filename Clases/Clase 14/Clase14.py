@@ -10,13 +10,13 @@ for letra in nombre:
     # print(f"{letra}")
     if letra == " ":
         pass
-    else:
 
-        if letra.upper() in vocal:
-            vocales += 1
-        elif letra.upper() != vocal:
-            consonantes += 1
+    elif letra.upper() in vocal:
+        vocales += 1
+    else:
+        consonantes += 1
 
 
 print(f"Cant de Vocales = {vocales}")
 print(f"Cant de Consonantes = {consonantes}")
+print(nombre[-3:])
